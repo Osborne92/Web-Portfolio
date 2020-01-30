@@ -1,0 +1,92 @@
+body {
+    background: black;
+}
+
+.card-deck {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card-img-overlay {
+  background: rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  height: 100%;
+  z-index: 2;
+}
+
+.card-body {
+  background: black;
+}
+
+.card {
+    border: none;
+    color: white; 
+    background: black;
+}
+
+ .deck-width {
+  max-width: 95em;
+} 
+
+.card-img {
+    width: 75%;
+    height: 40rem;
+    margin: 0 auto;
+    opacity: .5;
+}
+
+.title-size {
+  margin-top: 1.25em !important;
+  font-size: 3em;
+}
+
+.carousel-item h1, .carousel-item h3 {
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+h2, p, label, .contact-form h1, .contact-form p, .contact-form h2, .contact-form label {
+    color: white;
+}
+
+a  {
+  color: white;
+}
+
+@media only screen and (max-width: 750px) {
+    .carousel-item h1 {
+      font-size: 25px;
+    }
+    .carousel-item h3 {
+      font-size: 13px;
+    }
+  }
+
+  @media only screen and (max-width: 750px) {
+    .card-img {
+      height: 20rem;
+    }
+    .card-img-overlay h5 {
+      font-size: 15px;
+    }
+    .card-img-overlay h1 {
+      font-size: 25px;
+    }
+    .card-title h5 {
+      font-size: 2em;
+    }
+  }
+
+  @media only screen and (max-width: 1100px) {
+    .card-text {
+      display: none;
+      /* font-size: 50px; */
+    }
+  }
+
+  .image-container{
+    width: 100%;
+    object-fit: cover;
+    height: 300px; /* only if you want fixed height */
+    }

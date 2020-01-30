@@ -1,0 +1,176 @@
+body {
+  background-image: url("Photos/rough-black.jpg");
+  z-index: 1;
+  position: relative;
+}
+.navbar {
+  background-image: url("Photos/rough-black.jpg");
+}
+
+p .contact-description {
+  color: white;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-brand {
+  color: rgb(216, 10, 10);
+} 
+
+
+.nav-link:hover, .navbar-brand:hover {
+  color: rgb(216, 10, 10);
+ }
+
+.carousel-title {
+  margin: 50% 0; 
+}
+
+.carousel-title h1 {
+  font-size: 3em; 
+}
+
+.second-deck {
+  padding-top: 5rem;
+}
+
+.card {
+  border: white;
+  z-index: 1;
+  /* padding: 5em 0 5em 0; */
+}
+
+.card-body {
+  /* opacity: 0; */
+  z-index:  0;
+  position: absolute;
+  border: tomato;
+}
+
+.card-text, .card-title {
+  z-index: 1;
+  margin-top: 5.5em;
+  color: white;
+}
+
+.card-img {
+  height: 10vw;
+}
+
+.card-img-top {
+  z-index: 2;
+}
+
+.card-title {
+  color: white; 
+}
+
+.about-title {
+  margin: 10em 0 2.5em 0;
+}
+
+.sec-description {
+  color: white;
+}
+
+.btn-primary {
+  background-color: rgb(216, 10, 10) !important;
+  border-color: black !important;
+  color: white !important
+}
+
+h1, h2, h5, a {
+  color: white;
+}
+
+p, label {
+  color: white
+}
+
+#Contact {
+  margin-top: 8em;
+}
+
+@media only screen and (max-width: 1200px) {
+  .second-deck {
+    padding-top: 7rem;
+  }
+  .card-text, .card-title {
+    margin-top: 4.5em;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .second-deck {
+    padding-top: 8rem;
+  }
+  .card-text, .card-title {
+    margin-top: 3em;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .second-deck {
+    padding-top: 13rem;
+  }
+  .card-text, .card-title {
+    margin-top: 2em;
+  }
+  .about-title {
+    margin: 5em 0 3em 0;
+  }
+  #Products {
+    margin-top: 5em;
+  }
+  #Contact {
+    margin-top: 12em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card-text, .card-title {
+    margin-top: 8.5em;
+  }
+  .card {
+    margin-top: 5em;
+  }
+  #About, #Products {
+    margin: .5em 0 -1.5em 0;
+  }
+  .second-deck {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .second-deck {
+    padding-top: 8rem;
+  }
+  .card-text, .card-title {
+    margin-top: 7.5em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .second-deck {
+    padding-top: 8rem;
+  }
+  .card-text, .card-title {
+    margin-top: 5.5em;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .second-deck {
+    padding-top: 8rem;
+  }
+  .card-text, .card-title {
+    margin-top: 3.5em;
+  }
+}
