@@ -41,8 +41,10 @@ p .contact-description {
 }
 
 .card {
-  border: white;
+  border: black !important;
+  box-shadow: 7.5px 7.5px 15px rgb(0, 0, 0); 
   z-index: 1;
+  background: none;
   /* padding: 5em 0 5em 0; */
 }
 
@@ -50,7 +52,6 @@ p .contact-description {
   /* opacity: 0; */
   z-index:  0;
   position: absolute;
-  border: tomato;
 }
 
 .card-text, .card-title {

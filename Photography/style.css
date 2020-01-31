@@ -8,20 +8,34 @@ body {
 }
 
 .card-img-overlay {
-  background: rgba(0, 0, 0, 0.24);
   overflow: hidden;
   height: 100%;
   z-index: 2;
 }
 
+.card-border .card {
+  background: none;
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.info {
+  margin-top: 5em;
+  border: 1px solid black;
+  box-shadow: none;
+}
+
 .card-body {
-  background: black;
+  /* background: black; */
 }
 
 .card {
-    border: none;
     color: white; 
-    background: black;
+    background: none;
+    border: none;
+    box-shadow: 2.5px 2.5px 5px white;
+    z-index: 5;
 }
 
  .deck-width {
